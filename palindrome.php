@@ -17,7 +17,7 @@
 
         return $sum;
     }
-    if(isset($_POST[''])) {
+    if(isset($_POST['number'])) {
         $getNum = $_POST['number'];
         $output = checkPalindrome($getNum);
 
